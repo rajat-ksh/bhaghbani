@@ -1,0 +1,11 @@
+<div>
+    <h3>Our BestSellers</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div *ngFor="let plant of plants" class="col-md-2"> <!-- Adjust the column size as needed -->
+          <app-plant [plant]="plant"></app-plant>
+        </div>
+      </div>
+    </div>
+</div>
+  
