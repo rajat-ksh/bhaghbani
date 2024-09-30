@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customer-ui {
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 50px;
+}
+
+.admin-ui {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+nav {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007bff;
+  }
+
+    nav a:hover {
+      text-decoration: underline;
+    }

@@ -1,0 +1,29 @@
+<h2 class="text-2xl font-bold mb-6">Product Management</h2>
+
+<form class="bg-white p-6 rounded-lg shadow-md">
+  <div class="mb-4">
+    <label for="productName" class="block text-sm font-medium">Product Name</label>
+    <input id="productName" type="text" class="w-full border border-gray-300 rounded-lg p-2">
+  </div>
+
+  <div class="mb-4">
+    <label for="productPrice" class="block text-sm font-medium">Product Price</label>
+    <input id="productPrice" type="number" class="w-full border border-gray-300 rounded-lg p-2">
+  </div>
+
+  <div class="mb-4">
+    <label for="productCategory" class="block text-sm font-medium">Product Category</label>
+    <select id="productCategory" class="w-full border border-gray-300 rounded-lg p-2">
+      <option value="indoor">Indoor</option>
+      <option value="outdoor">Outdoor</option>
+      <option value="accessory">Accessory</option>
+    </select>
+  </div>
+
+  <div class="mb-4">
+    <label for="productDescription" class="block text-sm font-medium">Product Description</label>
+    <textarea id="productDescription" class="w-full border border-gray-300 rounded-lg p-2" ></textarea>
+  </div>
+
+  <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600" (click)="saveProduct()">Save Product</button>
+</form>
